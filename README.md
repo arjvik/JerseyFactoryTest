@@ -2,7 +2,7 @@
 I had a few doubts about how Jersey factories work. I wasn't sure what marking a factory as Singleton but the object it supplies as RequestScoped actually did.
 So I designed an experiment to test this. 
 
-I created 10 different objects (found in the `com.arjvik.arjmart.service` package), 4 service objects instantiated by factories, each of their factories, 
+I created 10 different objects (found in the [`com.arjvik.arjmart.service`](https://github.com/arjvik/JerseyFactoryTest/tree/master/src/main/java/com/arjvik/arjmart/service) package), 4 service objects instantiated by factories, each of their factories, 
 2 service objects instantiated without factories. Each of them logged a message when they were instantiated. This log was stored in a `StringBuilder` and sent to
 the browser upon each request, along with the instance number of each service injected by the resource class.
 
