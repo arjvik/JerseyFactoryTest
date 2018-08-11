@@ -102,10 +102,10 @@ com.arjvik.arjmart.MyResource
 #### Classes injected:
 
 ```
-com.arjvik.arjmart.service.Service_DefaultFactory_DefaultObject - 4
+com.arjvik.arjmart.service.Service_DefaultFactory_DefaultObject - 3
 com.arjvik.arjmart.service.Service_DefaultFactory_SingletonObject - 1
-com.arjvik.arjmart.service.Service_SingletonFactory_DefaultObject - 4
+com.arjvik.arjmart.service.Service_SingletonFactory_DefaultObject - 3
 com.arjvik.arjmart.service.Service_SingletonFactory_SingletonObject - 1
-com.arjvik.arjmart.service.Service_DefaultObject - 4
+com.arjvik.arjmart.service.Service_DefaultObject - 3
 com.arjvik.arjmart.service.Service_SingletonObject - 1
 ```
