@@ -17,7 +17,7 @@ the browser upon each request, along with the instance number of each service in
  - `Service_SingletonFactory_DefaultObject`	instantiated by `Factory_SingletonFactory_DefaultObject`
     - [ ] Service object marked as Singleton
     - [x] Factory object marked as Singleton
- - `Service_SingletonFactory_SingletonObject` instantiated by `SingletonFactory_SingletonObject`
+ - `Service_SingletonFactory_SingletonObject` instantiated by `Factory_SingletonFactory_SingletonObject`
     - [x] Service object marked as Singleton
     - [x] Factory object marked as Singleton
  - `Service_DefaultObject` instantiated without a factory
